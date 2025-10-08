@@ -1201,12 +1201,17 @@
 		</footer>
 	</main>
 
-	<!-- Core -->
-	<script src="../../vendor/@popperjs/core/dist/umd/popper.min.js"></script>
+	<!-- Core &  Vendor JS -->
+	<!--<script src="../../vendor/@popperjs/core/dist/umd/popper.min.js"></script>
 	<script src="../../vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../vendor/onscreen/dist/on-screen.umd.min.js"></script>-->
 
-	<!-- Vendor JS -->
-	<script src="../../vendor/onscreen/dist/on-screen.umd.min.js"></script>
+    <script src="{{ asset('assets-admin/vendor/@popperjs/core/dist/umd/popper.min.js') }}"></script>
+    <script src="{{ asset('assets-admin/vendor/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets-admin/vendor/onscreen/dist/on-screen.umd.min.js') }}"></script>
+
+
+
 </body>
 
 </html>
